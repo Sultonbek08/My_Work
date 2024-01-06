@@ -1,0 +1,47 @@
+@media (prefers-color-scheme: light) {
+
+    :root {
+        --body: #151437;
+        --text-color: #fff;
+        --dots: #ebebeb;
+        --tab-text: #151437;
+        --footer-link: #fff;
+    }
+
+    .title {
+        font-size: calc(28 + 12 * (100vw / 320));
+    }
+}
+
+@media (max-width:992px) {
+    .capabilities__image {
+        width: 80%;
+        margin: auto;
+    }
+
+    .navbar__container::after {
+        right: 0;
+    }
+
+    .navbar__container::before {
+        left: 0;
+        top: 35px;
+    }
+
+    .works__image {
+        width: 100%;
+        object-fit: cover;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .capabilities__imgage-img {
+        width: 100%;
+    }
+
+    .works__image {
+        width: 100%;
+        object-fit: cover;
+    }
+}
